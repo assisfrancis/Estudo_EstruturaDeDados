@@ -4,6 +4,8 @@
  */
 package estrudoestruturadados;
 
+import estrudoestruturadados.Vetores.Generico;
+
 /**
  *
  * @author kim
@@ -15,7 +17,12 @@ public class EstrudoEstruturaDados {
      */
     public static void main(String[] args) {
         
+        Generico<Integer>  vetor = new Generico<Integer>(10);
+        
+        vetor.teste();
+        
         
     }
+  
     
 }
